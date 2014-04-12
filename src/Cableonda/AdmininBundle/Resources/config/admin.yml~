@@ -1,0 +1,12 @@
+# Cableonda/AdmininBundle/Resources/config/admin.yml
+services:
+    sonata.admin.logslogin:
+        class: Cableonda\AdmininBundle\Admin\LogsloginAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Logs", label: "Inicio de Sesión"}
+        arguments:
+            - ~
+            - Cableonda\AdmininBundle\Entity\Logslogin
+            - ~
+        calls:
+            - [ setTranslationDomain, [AdmininBundle]]

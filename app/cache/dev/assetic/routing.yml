@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: /var/www/test.com/public_html/xxxxxx/cableonda-admin/app/config/routing_dev.yml

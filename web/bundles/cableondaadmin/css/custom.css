@@ -1,0 +1,8 @@
+nav[role="navigation"],
+aside.left-side.sidebar-offcanvas,
+a[href*="/logslogin/create"]{
+	display: none;
+}
+aside.right-side{
+	margin-left: 0px !important;
+}

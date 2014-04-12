@@ -1,0 +1,14 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: cable
+    database_user: root
+    database_password: hasbminca
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: es
+    secret: c3d38d9cd675f36c877a7912eaec18a6454c732f
+    database_path: null

@@ -1,0 +1,10 @@
+{# File src/Cableonda/AdminBundle/Resources/views/standard_layout.html.twig #}
+{% extends 'SonataAdminBundle::standard_layout.html.twig' %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <link href="{{ asset('bundles/cableondaadmin/css/jquery-ui-timepicker-addon.css') }}" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="{{ asset('bundles/cableondaadmin/css/custom.css') }}" type="text/css" rel="stylesheet" media="screen"/>
+    <script src="{{ asset('bundles/cableondaadmin/js/jquery-ui-timepicker-addon.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('bundles/cableondaadmin/js/jquery_admin.js') }}" type="text/javascript"></script>
+ {% endblock %}
